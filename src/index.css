@@ -22,8 +22,11 @@
   }
 }
 
-/* Custom utility classes for shadcn/ui patterns */
+/* Typography helpers */
 @layer utilities {
+  .font-cormorant { font-family: 'Cormorant Garamond', ui-serif, Georgia, serif; }
+  .font-cinzel { font-family: 'Cinzel Decorative', ui-serif, Georgia, serif; }
+
   .animate-in {
     animation-name: animateIn;
     animation-duration: 350ms;
